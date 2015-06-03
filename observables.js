@@ -1,5 +1,5 @@
-var ObservedArray = function(){
-  var a = [],
+var ObservedArray = function(arr){
+  var a = arr || [],
       observers = { }
   
   var splices = [];
